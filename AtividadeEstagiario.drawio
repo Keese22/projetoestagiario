@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T23:56:31.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2h1HGfYvjXlPNSynVqNZ" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T00:01:35.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cxcyolus7nYQpEKtn64R" version="21.7.5" type="github">
   <diagram name="Página-1" id="KM19SgrHwHomDQCSFyO0">
-    <mxGraphModel dx="475" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,6 +125,18 @@
         </mxCell>
         <mxCell id="I5gVnR9qmu1fBLH_7IMw-14" value="+Professor(..., string, string)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="840" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I5gVnR9qmu1fBLH_7IMw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I5gVnR9qmu1fBLH_7IMw-20" target="8ZvYy-rvlSSrWRd-s6ZS-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5gVnR9qmu1fBLH_7IMw-20" value="Aluno" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="560" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I5gVnR9qmu1fBLH_7IMw-21" value="-matricula: string&lt;br&gt;-dataMatricula: data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="I5gVnR9qmu1fBLH_7IMw-20">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I5gVnR9qmu1fBLH_7IMw-24" value="+Aluno(..., string, data)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="630" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
